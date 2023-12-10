@@ -11,7 +11,7 @@ module.exports = {
 	},
 	output: {
 		path: path.resolve('build'),
-		filename: '[name].[hash].js',
+		filename: '[name].[contenthash].js',
 		// clean: true,
 	},
 };
